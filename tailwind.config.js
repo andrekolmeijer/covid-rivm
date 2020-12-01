@@ -6,10 +6,15 @@ module.exports = {
       fontFamily: {
         sans: 'Nunito'
       },
+      screens: {
+        '3xl': '1792px',
+      }
     },
   },
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/forms'),
+  ],
 }
